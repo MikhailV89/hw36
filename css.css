@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+#buttonLink {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    background-color: slateblue;
+    border-radius: 30px;
+}
+
+#buttonLink:hover {
+    background-color: peru;
+    width: 250px
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    
+}
+
+#inputUrl {
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border-color: black
+}
+
+h3 {
+    padding: 10px;
+    color: lightslategrey;
+}
+
+h3:hover {
+    color: white;
+}
+
+::placeholder {
+    color: greenyellow;
+    font-size: 20px;
+}
